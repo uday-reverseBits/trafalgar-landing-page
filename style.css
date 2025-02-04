@@ -1,26 +1,3 @@
-.navbar>.container {
-
-    /* border: 2px solid rgba(5, 0, 255, 1); */
-}
-
-.navbar>.container>a {
-    /* width: 41px;
-    height: 41px;
-    border: 2px solid;
-    border-radius: 50%;
+.logo-text-container {
     background-color: rgba(69, 143, 246, 1);
-    color: white; */
-
-}
-
-
-.navbar>.container>a>.logo {
-    /* display: block;
-    text-align: center;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 32.63px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    outline: none; */
 }
