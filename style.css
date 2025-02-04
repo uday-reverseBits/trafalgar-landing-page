@@ -1,3 +1,14 @@
 .logo-text-container {
     background-color: rgba(69, 143, 246, 1);
 }
+
+
+.trafalgar-image {
+    width: 693px;
+    height: 598px;
+}
+
+.trafalgar-image>img {
+    display: block;
+    max-width: 100%;
+}
