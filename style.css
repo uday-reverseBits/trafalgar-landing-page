@@ -22,10 +22,28 @@
 /* --------------section-3------------- */
 
 
+
 .solution-image>img {
     display: block;
-    min-width: 100%;
+    max-width: 100%;
 }
+
+/* --------------section-4------------- */
+
+
+
+.app-img>img {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -54,21 +72,6 @@
     width: auto;
 }
 
-/* .carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-
-}
-
-.carousel-control-prev {
-    top: 300px;
-    margin-left: 20%;
-}
-
-.carousel-control-next {
-    top: 300px;
-    margin-right: 20%;
-} */
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -83,13 +86,6 @@
     background-color: rgba(91, 155, 243, 1) !important;
 }
 
-
-
-/* .download-our-mobile-apps {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-} */
 
 
 
@@ -113,6 +109,20 @@
     .trafalgar-image>img {
         margin-block: auto !important;
     }
+
+    .solution-text {
+        width: 100% !important;
+        text-align: center;
+        margin-block: auto;
+    }
+
+    .app-info {
+        width: 100% !important;
+        text-align: center;
+        margin-block: auto;
+    }
+
+
 }
 
 
@@ -121,9 +131,4 @@
 
 .carousel-bg {
     background-image: linear-gradient(to left bottom, rgba(103, 195, 243, 1), rgba(90, 152, 242, 1));
-}
-
-
-.card {
-    /* padding: 100px !important; */
 }
