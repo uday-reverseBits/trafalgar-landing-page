@@ -2,6 +2,10 @@
     background-color: rgba(69, 143, 246, 1);
 }
 
+.carousel-bg {
+    background: rgba(103, 195, 243, 1);
+}
+
 /* --------------section-1------------- */
 
 .trafalgar-image {
@@ -23,4 +27,17 @@
 .solution-image>img {
     display: block;
     min-width: 100%;
+}
+
+
+
+.card-body>img {
+    width: 130px;
+}
+
+.card-header {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background: none;
 }
