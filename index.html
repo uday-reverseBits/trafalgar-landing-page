@@ -13,7 +13,7 @@
 
 <body>
     <!-- -------------------------navbar------------------------------------------------------------------- -->
-    <header class="container-lg">
+    <header class="container-lg mt-5">
         <nav class="navbar navbar-expand-md">
 
 
@@ -63,13 +63,15 @@
 
     <!-- ---------------------------------------section-1------------------------------------------------- -->
 
-    <section class="trafalgar-intro d-flex flex-lg-row flex-column container-lg align-items-center mt-5">
-        <div class="trafalgar-info text-center text-lg-start ">
-            <h2 class="mb-4 mb-lg-0">Virtual healthcare for you</h2>
-            <p class="mb-4 mb-lg-0 w-75">Trafalgar provides progressive, and affordable
+    <section
+        class="trafalgar-intro d-flex flex-lg-row flex-column container-lg align-items-center justify-content-between min-vh-100">
+
+        <div class="trafalgar-info w-25">
+            <h2 class="mb-4 mb-lg-4 text-left">Virtual healthcare for you</h2>
+            <p class="mb-4 mb-lg-4  text-left">Trafalgar provides progressive, and affordable
                 healthcare, accessible on mobile and online
                 for everyone</p>
-            <button type="button" class="btn btn-primary  rounded-pill logo-text-container mt-2 mb-3 mb-lg-0"
+            <button type="button" class="btn btn-primary  rounded-pill logo-text-container mt-2 mb-3 mb-lg-0 d-block"
                 style="width: 10.5rem;">Consult
                 today</button>
         </div>
@@ -82,7 +84,7 @@
 
     <!-- ---------------------------------------section-2------------------------------------------------- -->
 
-    <section class="services-section container-lg" style="margin-top: 100px;">
+    <section class="services-section container-lg min-vh-100" style="margin-top: 100px;">
         <h2 class="text-center">Our services</h2>
         <p class="text-center">We provide to you the best choiches for you. Adjust it to your health needs and make sure
             your undergo
@@ -178,7 +180,8 @@
 
     <!-- ---------------------------------------section-3------------------------------------------------- -->
 
-    <section class="out-healthcare-solutions container-lg d-flex align-items-center justify-content-between">
+    <section
+        class="out-healthcare-solutions container-lg d-flex flex-lg-row flex-column align-items-center justify-content-between mt-5 min-vh-100">
 
         <div class="solution-image">
             <img src="/trafalgar-landing-page/trafalgar-illustration sec02 1.png" alt="">
@@ -202,7 +205,8 @@
 
     <!-- ---------------------------------------section-4------------------------------------------------- -->
 
-    <section class="download-our-mobile-apps container-lg d-flex align-items-center justify-content-between">
+    <section
+        class="download-our-mobile-apps container-lg d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between mt-5 min-vh-100">
 
         <div class="app-info" style="width: 40%;">
             <h2>Download our mobile apps</h2>
@@ -223,9 +227,9 @@
 
     <!-- ---------------------------------------section-5------------------------------------------------- -->
 
-    <section class="reviews-carousel container-lg">
+    <section class="reviews-carousel container-lg mt-5 min-vh-100">
 
-        <div class="carousel mb-5 ">
+        <div class="carousel slide  " id="#carouselExample">
             <div class="carousel-inner">
                 <div class="carousel-item active ">
 
@@ -234,22 +238,21 @@
 
 
 
-                    <div class="card carousel-bg p-5 text-light rounded-3">
+                    <div class="card carousel-bg p-5 text-light rounded-3 mt-5">
                         <div class="card-header  text-center fs-3 fw-medium">
                             What our customer are saying
                         </div>
                         <div class="row g-0">
-                            <div class="col">
+                            <div class="col d-flex align-items-center ps-5">
                                 <img src="/trafalgar-landing-page/reviewer image.png" class="img-fluid rounded-start"
                                     alt="...">
-                            </div>
-                            <div class="col">
+
                                 <div class="card-body">
                                     <h5 class="card-title fw-normal">Edward Newgate</h5>
                                     <h6 class="card-subtitle mb-2 fw-light">Founder Circle</h6>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col pe-5 d-flex align-items-center">
                                 <div class="card-body">
                                     <p class="card-text fw-lighter">“Our dedicated patient engagement app and
                                         web portal allow you to access information instantaneously (no tedeous form,
@@ -264,8 +267,58 @@
 
                 </div>
             </div>
+
+
+
+            <div class="bottom-navigation d-flex justify-content-evenly align-items-center mt-4">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(69, 143, 246, 1)"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">
+                    </span>
+                </button>
+
+
+
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class=" carousel-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="carousel-indicator" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="carousel-indicator" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button class="carousel-indicator" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="3" aria-label="Slide 3"></button>
+                </div>
+
+
+
+
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(69, 143, 246, 1)"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
         </div>
-        </div>
+
+
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

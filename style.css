@@ -2,15 +2,13 @@
     background-color: rgba(69, 143, 246, 1);
 }
 
-.carousel-bg {
-    background: rgba(103, 195, 243, 1);
-}
 
 /* --------------section-1------------- */
 
 .trafalgar-image {
-    width: 693px;
+    max-width: 503px;
     height: 598px;
+    display: contents !important;
 }
 
 .trafalgar-image>img {
@@ -40,4 +38,92 @@
     box-shadow: none !important;
     outline: none !important;
     background: none;
+}
+
+
+.carousel-indicators {
+    position: unset;
+    width: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: auto;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+
+}
+
+.carousel-control-prev {
+    top: 300px;
+    margin-left: 20%;
+}
+
+.carousel-control-next {
+    top: 300px;
+    margin-right: 20%;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: unset;
+}
+
+.carousel-indicator {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: black;
+    border-radius: 50%;
+    background-color: rgba(91, 155, 243, 1) !important;
+}
+
+
+
+/* .download-our-mobile-apps {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 991px) {
+
+    /* CSS rules for devices from sm to lg (576px to 991px) */
+    .trafalgar-info {
+        width: 100% !important;
+        text-align: center;
+        margin-top: auto;
+
+    }
+
+    .trafalgar-info button {
+        display: block;
+        margin-inline: auto;
+    }
+
+    .trafalgar-image>img {
+        margin-block: auto !important;
+    }
+}
+
+
+
+
+
+.carousel-bg {
+    background-image: linear-gradient(to left bottom, rgba(103, 195, 243, 1), rgba(90, 152, 242, 1));
+}
+
+
+.card {
+    /* padding: 100px !important; */
 }
