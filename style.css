@@ -2,6 +2,7 @@
     background-color: rgba(69, 143, 246, 1);
 }
 
+/* --------------section-1------------- */
 
 .trafalgar-image {
     width: 693px;
@@ -11,4 +12,15 @@
 .trafalgar-image>img {
     display: block;
     max-width: 100%;
+}
+
+
+
+
+/* --------------section-3------------- */
+
+
+.solution-image>img {
+    display: block;
+    min-width: 100%;
 }
