@@ -1,3 +1,9 @@
+body {
+    font-family: "Mulish", serif;
+}
+
+
+
 .logo-text-container {
     background-color: rgba(69, 143, 246, 1);
 }
@@ -8,7 +14,6 @@
 .trafalgar-image {
     max-width: 503px;
     height: 598px;
-    /* display: contents !important; */
 }
 
 .trafalgar-image>img {
@@ -97,10 +102,11 @@
     /* CSS rules for devices from sm to lg (576px to 991px) */
     .trafalgar-info {
         width: 100% !important;
-        /* text-align: center; */
         margin-top: auto;
 
     }
+
+
 
     .trafalgar-info h2 {
         text-align: center;
