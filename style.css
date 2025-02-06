@@ -8,7 +8,7 @@
 .trafalgar-image {
     max-width: 503px;
     height: 598px;
-    display: contents !important;
+    /* display: contents !important; */
 }
 
 .trafalgar-image>img {
@@ -93,12 +93,18 @@
 
 @media (min-width: 300px) and (max-width: 991px) {
 
+
     /* CSS rules for devices from sm to lg (576px to 991px) */
     .trafalgar-info {
         width: 100% !important;
-        text-align: center;
+        /* text-align: center; */
         margin-top: auto;
 
+    }
+
+    .trafalgar-info h2 {
+        text-align: center;
+        margin-block: revert;
     }
 
     .trafalgar-info button {
@@ -114,12 +120,19 @@
         width: 100% !important;
         text-align: center;
         margin-block: auto;
+        margin-top: inherit;
     }
 
     .app-info {
         width: 100% !important;
         text-align: center;
         margin-block: auto;
+        margin-top: inherit;
+    }
+
+    /* section-2 */
+    .services-section {
+        margin-top: 3rem !important;
     }
 
 
