@@ -151,3 +151,38 @@ body {
 .carousel-bg {
     background-image: linear-gradient(to left bottom, rgba(103, 195, 243, 1), rgba(90, 152, 242, 1));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width: 1023.999px) {
+    /* Your custom styles for iPad Pro */
+    .navbar-toggler {
+        padding: 0.5rem;
+        background-color: #007bff;
+    }
+    
+    #nav {
+        display: flex !important;
+    }
+    
+    ul li {
+        margin-bottom: 0 !important;
+    }
+}
