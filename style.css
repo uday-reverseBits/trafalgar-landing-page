@@ -8,18 +8,24 @@ body {
     background-color: rgba(69, 143, 246, 1);
 }
 
+.left-dotted-img > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* --------------section-1------------- */
 
-.trafalgar-image {
-    max-width: 503px;
-    height: 598px;
-}
+/* .trafalgar-image { */
+    /* max-width: 503px; */
+    /* height: 598px; */
+/* } */
 
-.trafalgar-image>img {
+/* .trafalgar-image>img {
     display: block;
     max-width: 100%;
-}
+} */
 
 
 
@@ -31,6 +37,7 @@ body {
 .solution-image>img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 /* --------------section-4------------- */
@@ -43,8 +50,20 @@ body {
 }
 
 
+/* ---------------section-6--------------- */
+/* .sec-6-r-bg {
+    pointer-events: none;
+}
 
-
+.sec-6-r-bg img {
+    max-width: none;
+    display: block;
+} */
+@media (max-width: 768px) {
+    .sec-6-r-bg {
+        display: none; /* Optional: hide on mobile if desired */
+    }
+}
 
 
 
