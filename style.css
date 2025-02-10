@@ -8,7 +8,7 @@ body {
     background-color: rgba(69, 143, 246, 1);
 }
 
-.left-dotted-img > img{
+.left-dotted-img>img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -18,8 +18,8 @@ body {
 /* --------------section-1------------- */
 
 /* .trafalgar-image { */
-    /* max-width: 503px; */
-    /* height: 598px; */
+/* max-width: 503px; */
+/* height: 598px; */
 /* } */
 
 /* .trafalgar-image>img {
@@ -61,7 +61,8 @@ body {
 } */
 @media (max-width: 768px) {
     .sec-6-r-bg {
-        display: none; /* Optional: hide on mobile if desired */
+        display: none;
+        /* Optional: hide on mobile if desired */
     }
 }
 
@@ -191,16 +192,17 @@ body {
 
 
 @media screen and (width: 1023.999px) {
+
     /* Your custom styles for iPad Pro */
     .navbar-toggler {
         padding: 0.5rem;
         background-color: #007bff;
     }
-    
+
     #nav {
         display: flex !important;
     }
-    
+
     ul li {
         margin-bottom: 0 !important;
     }
