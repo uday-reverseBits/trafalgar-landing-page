@@ -207,3 +207,17 @@ body {
         margin-bottom: 0 !important;
     }
 }
+
+
+.services-section {
+    background-image: url(/trafalgar-landing-page/bg-sec-2.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+
+}
+
+.articles {
+    background-image: url(/trafalgar-landing-page/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
