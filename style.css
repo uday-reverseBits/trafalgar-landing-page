@@ -216,6 +216,12 @@ body {
 
 }
 
+@media (max-width: 768px) {
+    .services-section {
+        background-image: none;
+    }
+}
+
 .articles {
     background-image: url(/trafalgar-landing-page/Vector.svg);
     background-repeat: no-repeat;
